@@ -17,6 +17,10 @@
 var cardData = {
 
 	standardInput: [{
+		name: "lickable",
+		modOut: "person",
+		output: "event(lick happens) vector(tongue position) state(is licked)"
+	}, {
 		name: "touch-table or tablet (iPad)",
 		modOut: "person",
 		output: "event(touch happens) vector(touch position) state(is touched)"
