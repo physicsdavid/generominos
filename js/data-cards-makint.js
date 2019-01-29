@@ -1,5 +1,7 @@
 /*
- * Card data
+ * Card data - variation for Making Interaction class at QCA/Griffith Uni
+ * [Some cards are removed from original set as well as some added.]
+ *
  * Create new Generominos cards here
  * I'd recommend making a new entry in CardData for your custom cards, eg
  *    var cardData = {
