@@ -12,6 +12,9 @@
  * Transformation cards have "input" data types and "output" data types
  * Input modifier cards have "modIn" and "modOut"(optional) types
  * Output modifier cards have no data types
+ *
+ * Card data - variation for Making Interaction class at QCA/Griffith Uni
+ * [Some cards are removed from original set as well as some added.]
  */
 
 var cardData = {
