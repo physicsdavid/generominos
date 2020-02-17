@@ -7,7 +7,7 @@ var app = {
 $(document).ready(function() {
 
 
-	createCheatSheet();
+	//createCheatSheet();
 	var cards = [];
 
 	var typeCount = 0;

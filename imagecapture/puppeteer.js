@@ -24,7 +24,7 @@ const tileCount = 1;
 		width: tileCount * dim.x + 100,
 		height: 597
 	})
-	await page.goto('file:///Users/Compton/Dropbox/Code/galaxykate/generominos/cardgenerator.html');
+	await page.goto('file:///Users/david/Dropbox/Code/generominos/cardgenerator.html');
 
 	var indices = [];
 	for (var i = 0; i < cardCount; i++) {
