@@ -10,10 +10,10 @@ console.log("doing puppeteer things!")
 const puppeteer = require('puppeteer');
 
 const dim = {
-	x: 823,
-	y: 597
+	x: 822, //823
+	y: 597 //597
 };
-const cardCount = 160;
+const cardCount = 173;
 
 const tileCount = 1;
 
@@ -22,7 +22,7 @@ const tileCount = 1;
 	const page = await browser.newPage();
 	page.setViewport({
 		width: tileCount * dim.x + 100,
-		height: 597
+		height: cardCount * dim.y + 100
 	})
 	await page.goto('file:///Users/david/Dropbox/Code/generominos/cardgenerator.html');
 
